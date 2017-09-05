@@ -1,4 +1,4 @@
-[OnInit] Running program ./../bin/bundler
+[OnInit] Running program /home/yczeng/Documents/bundler_sfm/bin/bundler
 Loading images from file 'list.txt'
 [BundlerApp::OnInit] Processing options...
 [BundlerApp::OnInit] Loading frame...
@@ -320,7 +320,7 @@ Loading images from file 'list.txt'
 [GetJPEGDimensions] File ./scene02051.jpg: ( 544 , 386 )
 [LoadKeys] Loading keys from image 42...
 [GetJPEGDimensions] File ./scene02101.jpg: ( 544 , 386 )
-[LoadKeys] Loaded keys in 0.162s
+[LoadKeys] Loaded keys in 0.125s
 Sum of squares tolerance reached
    1.051600e-03  -2.295138e-02  -1.255156e-01 
    2.345496e-02  -1.139719e-04  4.401271e-01 
@@ -9636,7 +9636,7 @@ pdp_eL2: 4879.414, nvis: 204
 max_pct_change: 3.583e-02
 [run_sfm] Number of iterations: 96
 info[6] = 8.000
-[RunSFM] run_sfm took 0.061s
+[RunSFM] run_sfm took 0.052s
 [RunSFM] Mean error cam 0[4] [102 pts]: 3.095e+00 [med: 1.903e+00, 1.371e+01]
    E[2.209e-02--1.296e+00]: 40 [0.392]
    E[1.296e+00--2.569e+00]: 20 [0.196]
@@ -9667,7 +9667,7 @@ info[6] = 8.000
 [RunSFM] outlier removal took 0.000s
 [RunSFM] Removing 4 outliers
   focal lengths: 335.260, 942.492
-[DumpOutputFile] Wrote file in 0.001s
+[DumpOutputFile] Wrote file in 0.000s
   existing_matches[3] = 27
   score[3]   = 27.000
   existing_matches[5] = 81
@@ -10298,7 +10298,7 @@ Sum of squares tolerance reached
    E[1.102e+01--1.232e+01]: 2 [0.091]
    E[1.232e+01--1.362e+01]: 1 [0.045]
 [RefineCameraParameters] Exiting after 3 rounds with 22 / 63 points
-[BundleInitializeImage] Initializing took 0.068s
+[BundleInitializeImage] Initializing took 0.076s
 [BundleAdjust[0]] Adjusting camera 7 (parent = -1)
 [BaseApp::SetTracks] Setting tracks for image 7...
 [BaseApp::SetTracks] Finished in 0.000s
@@ -10637,7 +10637,7 @@ Sum of squares tolerance reached
    E[1.112e+01--1.250e+01]: 1 [0.016]
    E[1.250e+01--1.388e+01]: 1 [0.016]
 [RefineCameraParameters] Exiting after 2 rounds with 63 / 76 points
-[BundleInitializeImage] Initializing took 0.093s
+[BundleInitializeImage] Initializing took 0.072s
 [BundleAdjust[0]] Adjusting camera 8 (parent = -1)
 [BaseApp::SetTracks] Setting tracks for image 8...
 [BaseApp::SetTracks] Finished in 0.000s
@@ -11053,7 +11053,7 @@ Sum of squares tolerance reached
    E[1.177e+01--1.319e+01]: 0 [0.000]
    E[1.319e+01--1.462e+01]: 1 [0.015]
 [RefineCameraParameters] Exiting after 4 rounds with 66 / 76 points
-[BundleInitializeImage] Initializing took 0.136s
+[BundleInitializeImage] Initializing took 0.073s
 [BundleAdjust] Adding new matches
 [AddAllNewPoints] Added 1 new points
 [AddAllNewPoints] Ill-conditioned tracks: 0
@@ -11383,7 +11383,7 @@ pdp_eL2: 9614.026, nvis: 349
 max_pct_change: 3.993e-02
 [run_sfm] Number of iterations: 60
 info[6] = 8.000
-[RunSFM] run_sfm took 0.053s
+[RunSFM] run_sfm took 0.046s
 [RunSFM] Mean error cam 0[4] [98 pts]: 3.971e+00 [med: 2.873e+00, 1.474e+01]
    E[3.142e-02--1.601e+00]: 28 [0.286]
    E[1.601e+00--3.170e+00]: 24 [0.245]
@@ -11453,7 +11453,7 @@ info[6] = 8.000
    [002] 350.813 ./scene00301.jpg 6; -2.217e+00 -2.617e-01
    [003] 117.608 ./scene00351.jpg 7; -3.212e+00 3.712e+00
    [004] 591.349 ./scene00401.jpg 8; -2.277e+00 1.530e+00
-[DumpOutputFile] Wrote file in 0.001s
+[DumpOutputFile] Wrote file in 0.000s
   existing_matches[3] = 27
   score[3]   = 27.000
   existing_matches[10] = 6
@@ -12489,7 +12489,7 @@ pdp_eL2: 8170.232, nvis: 340
 max_pct_change: 3.872e-02
 [run_sfm] Number of iterations: 148
 info[6] = 8.000
-[RunSFM] run_sfm took 0.128s
+[RunSFM] run_sfm took 0.106s
 [RunSFM] Mean error cam 0[4] [94 pts]: 3.658e+00 [med: 2.920e+00, 1.415e+01]
    E[1.524e-01--1.254e+00]: 22 [0.234]
    E[1.254e+00--2.355e+00]: 22 [0.234]
@@ -12572,7 +12572,7 @@ info[6] = 8.000
   score[38]   = 2.000
 Error: parent not found
 [BundleAdjust] max_matches = 12
-[BundleAdjust] Bundle adjustment took 4.379s
+[BundleAdjust] Bundle adjustment took 3.360s
 [DumpOutputFile] Wrote file in 0.001s
 [BaseApp::SetMatchesFromPoints] Setting up matches...
 [BaseApp::SetMatchesFromPoints] Done!

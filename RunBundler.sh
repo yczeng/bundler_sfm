@@ -25,7 +25,7 @@
 #                                # (e.g., you might use 500)
 #
 
-BASE_PATH=$(dirname $(which $0));
+BASE_PATH=/home/yczeng/Documents/bundler_sfm
 
 if [ $BASE_PATH == "TODO" ]
 then
